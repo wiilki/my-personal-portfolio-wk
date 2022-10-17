@@ -34,7 +34,7 @@ a {
 }
 
 a:visited {
-    color: grey;
+    color: white;
 }
 
 a:hover {
@@ -54,21 +54,21 @@ a:hover {
 }
 
 .about {
-    background-color: white;
-    color: black;
-    text-align: center;
-    min-height: 50px;
-}
-
-.portfolio {
     background-color: black;
     color: white;
     text-align: center;
     min-height: 50px;
 }
-.contact {
+
+.portfolio {
     background-color: white;
     color: black;
+    text-align: center;
+    min-height: 50px;
+}
+.contact {
+    background-color: black;
+    color: white;
     text-align: center;
     min-height: 50px;
 }
