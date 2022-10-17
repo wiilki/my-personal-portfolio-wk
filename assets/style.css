@@ -31,6 +31,10 @@ header a {
     text-align: center;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
 .main h1, .main h2 {
     padding: 20px;
 }
