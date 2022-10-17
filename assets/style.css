@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+h1, h2, img, p {
+    padding: 5px;
+}
+
 header {
     padding: 30px;
     background-color: black ;
@@ -45,10 +49,6 @@ a:hover {
     text-align: center;
 }
 
-.main h1, .main h2 {
-    padding: 20px;
-}
-
 .main img {
     border-radius: 20px;
 }
@@ -57,18 +57,18 @@ a:hover {
     background-color: black;
     color: white;
     text-align: center;
-    min-height: 50px;
+    min-height: 500px;
 }
 
 .portfolio {
     background-color: white;
     color: black;
     text-align: center;
-    min-height: 50px;
+    min-height: 500px;
 }
 .contact {
     background-color: black;
     color: white;
     text-align: center;
-    min-height: 50px;
+    min-height: 500px;
 }
