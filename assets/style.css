@@ -16,6 +16,17 @@ header ul {
     float: right;
 }
 
+header ul li {
+    display: inline-block;
+    margin-left: 25px;
+    padding: 10px;
+    color:white;
+}
+
+header a {
+    color: white
+}
+
 .main {
     text-align: center;
 }
