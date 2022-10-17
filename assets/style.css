@@ -12,6 +12,11 @@ header {
     width: 100%;
 }
 
+header img {
+    float:left;
+    height: 50px;
+}
+
 header ul {
     float: right;
 }
