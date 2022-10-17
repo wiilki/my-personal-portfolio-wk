@@ -28,15 +28,19 @@ header ul li {
     color:white;
 }
 
-header a {
+a {
     color: white
 }
 
-.main {
-    text-align: center;
+a:visited {
+    color: grey;
 }
 
-h1, h2 {
+a:hover {
+    color: gainsboro;
+}
+
+.main {
     text-align: center;
 }
 
