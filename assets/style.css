@@ -43,11 +43,18 @@ header ul li {
     margin-left: 25px;
     padding: 10px;
     color:white;
+    font-size: 25x;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
 }
 
 a {
     color: white;
     text-decoration:none;
+    font-size: 30px;
 }
 
 a:visited {
