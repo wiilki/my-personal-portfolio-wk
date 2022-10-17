@@ -29,7 +29,8 @@ header ul li {
 }
 
 a {
-    color: white
+    color: white;
+    text-decoration:none;
 }
 
 a:visited {
