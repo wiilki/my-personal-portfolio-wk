@@ -47,6 +47,7 @@ a:hover {
 
 .main {
     text-align: center;
+    min-height: 500px;
 }
 
 .main img {
