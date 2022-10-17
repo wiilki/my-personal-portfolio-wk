@@ -16,11 +16,10 @@ header ul {
     float: right;
 }
 
-.about {
-    padding: 30px;
-
+.main {
+    text-align: center;
 }
 
-.contact {
-
+.main img {
+    border-radius: 20px;
 }
