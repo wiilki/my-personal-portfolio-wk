@@ -127,7 +127,6 @@ a:hover {
 }
 
 .card > * {
-
     text-align: center;
 }
 
@@ -140,9 +139,13 @@ h1,h2,p {
     margin: 30px;
 }
 
-#info img:hover {
-    display: none;
-}
+#info img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    min-width: 200px;
+  }
 
 #portfolio {
     display: flexbox;
