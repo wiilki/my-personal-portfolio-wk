@@ -95,43 +95,41 @@ a:hover {
     color: gainsboro;
 }
 
-.info, .about, .portfolio, .contact {
-    text-align: center;
-    min-height: 500px;
-}
-
 .main {
     display: flex;
     flex-direction:column;
     overflow:hidden;
+    text-align: center;
+
 }
 
 h1, h2, p {
     margin: 30px;
 }
 
-.info img {
+#info img {
     border-radius: 20px;
     margin: 30px;
 }
 
-.about {
+#about {
     background-color: black;
     color: white;
 
 }
 
-.portfolio {
+#portfolio {
     background-color: white;
     color: black;
     display: flexbox;
 }
 
-.portfolio img:hover {
+#portfolio img:hover {
     opacity: .5;
 }
 
-.contact {
+#contact {
     background-color: black;
     color: white;
 }
+
