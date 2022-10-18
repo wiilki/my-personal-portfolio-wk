@@ -140,6 +140,10 @@ h1,h2,p {
     margin: 30px;
 }
 
+#info img:hover {
+    display: none;
+}
+
 #portfolio {
     display: flexbox;
 }
