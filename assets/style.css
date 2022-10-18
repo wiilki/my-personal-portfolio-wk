@@ -99,11 +99,12 @@ a:hover {
     display: flex;
     flex-direction:column;
     overflow:hidden;
-    text-align: center;
 }
 
-.card {
+
+.card-elements {
     min-height: 500px;
+    text-align: center;
 }
 
 h1, h2, p {
