@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    position: relative;
+}
+
 h1 {
     font-size: 100px;
 }
@@ -36,6 +40,7 @@ header img {
 
 header ul {
     float: right;
+    display: flex
 }
 
 header ul li {
@@ -65,9 +70,10 @@ a:hover {
     color: gainsboro;
 }
 
-main {
+.main {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    overflow:hidden;
 }
 
 .info {
@@ -75,8 +81,13 @@ main {
     min-height: 500px;
 }
 
+h1, h2, p {
+    margin: 30px;
+}
+
 .info img {
     border-radius: 20px;
+    margin: 30px;
 }
 
 .about {
