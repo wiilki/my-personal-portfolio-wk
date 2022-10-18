@@ -135,3 +135,9 @@ h1, h2, p {
     background-color: black;
     color: white;
 }
+
+#contact a {
+    border: solid 1px white;
+    padding: 10px;
+    border-radius: 15px;
+}
