@@ -9,7 +9,7 @@ Provide a short description explaining the what, why, and how of your project. U
 - What problem does it solve?
 - What did you learn?
 
-I created this project to display my portfolio in my own unique way. I wanted to use my knowledge of flexbox, media queries and other CSS variables to showcase my previous projects.
+I created this project to display my portfolio in my own unique way. I wanted to use my knowledge of flexbox, media queries and various other CSS variables to showcase my previous projects.
 
 ## Table of Contents (Optional)
 

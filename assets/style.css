@@ -125,7 +125,13 @@ h1, h2, p {
 .portfolio {
     background-color: white;
     color: black;
+    display: flexbox;
 }
+
+.portfolio img:hover {
+    opacity: .5;
+}
+
 .contact {
     background-color: black;
     color: white;
