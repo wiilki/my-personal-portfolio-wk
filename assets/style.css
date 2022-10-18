@@ -65,12 +65,17 @@ a:hover {
     color: gainsboro;
 }
 
-.main {
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
     text-align: center;
     min-height: 500px;
 }
 
-.main img {
+.info img {
     border-radius: 20px;
 }
 
