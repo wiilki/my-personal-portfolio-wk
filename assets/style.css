@@ -1,10 +1,10 @@
-::root {
-    --darkbackground:black;
-    --lightbackground:white;
+:root {
+    --darkbackground: black;
+    --lightbackground: white;
     --lightfont: white;
     --darkfont: black;
-    --hoverfont:gainsboro;
-    --linkfont:white;
+    --hoverfont: gainsboro;
+    --linkfont: white;
 }
 
 * {
@@ -27,8 +27,9 @@ h2 {
 
 @media screen and (max-width: 992px) {
     h1 {
-      font-size: 50px;
+        font-size: 50px;
     }
+
     h2 {
         font-size: 30px;
     }
@@ -36,8 +37,9 @@ h2 {
 
 @media screen and (max-width: 768px) {
     h1 {
-      font-size: 40px;
+        font-size: 40px;
     }
+
     h2 {
         font-size: 25px;
     }
@@ -45,14 +47,14 @@ h2 {
 
 header {
     padding: 15px;
-    background-color: var(--darkbackground) ;
+    background-color: var(--darkbackground);
     color: var(--lightfont);
     display: inline-block;
     width: 100%;
 }
 
 header img {
-    float:left;
+    float: left;
     height: 50px;
 }
 
@@ -65,7 +67,7 @@ header ul li {
     display: inline-block;
     margin-left: 25px;
     padding: 1px;
-    color:var(--fontcolor);
+    color: var(--fontcolor);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -92,7 +94,7 @@ p {
 
 a {
     color: var(--lightfont);
-    text-decoration:none;
+    text-decoration: none;
     font-size: 30px;
 }
 
@@ -106,20 +108,30 @@ a:hover {
 
 .main {
     display: flex;
-    flex-direction:column;
-    overflow:hidden;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .card {
     min-height: 500px;
 }
 
+.card:nth-child(even) {
+    background-color: var(--darkbackground);
+    color: var(--lightfont);
+}
+
+.card:nth-child(odd) {
+    background-color: var(--lightbackground);
+    color: var(--darkfont);
+}
+
 .card-elements {
-    
+
     text-align: center;
 }
 
-h1, h2, p {
+h1,h2,p {
     margin: 30px;
 }
 
@@ -128,15 +140,7 @@ h1, h2, p {
     margin: 30px;
 }
 
-#about {
-    background-color: var(--darkbackground);
-    color: var(--fontcolor);
-
-}
-
 #portfolio {
-    background-color: var(--lightbackground);
-    color: var(--darkfont);
     display: flexbox;
 }
 
@@ -144,10 +148,6 @@ h1, h2, p {
     opacity: .5;
 }
 
-#contact {
-    background-color: var(--darkbackground);
-    color: var(--fontcolor);
-}
 
 #contact a {
     border: solid 1px white;
