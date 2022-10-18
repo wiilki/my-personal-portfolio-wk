@@ -95,20 +95,20 @@ a:hover {
     color: gainsboro;
 }
 
+.info, .about, .portfolio, .contact {
+    text-align: center;
+    min-height: 500px;
+}
+
 .main {
     display: flex;
     flex-direction:column;
     overflow:hidden;
 }
 
-.info {
-    text-align: center;
-    min-height: 500px;
-}
 
 h1, h2, p {
     margin: 30px;
-    vertical-align:auto;
 }
 
 .info img {
@@ -119,19 +119,14 @@ h1, h2, p {
 .about {
     background-color: black;
     color: white;
-    text-align: center;
-    min-height: 500px;
+
 }
 
 .portfolio {
     background-color: white;
     color: black;
-    text-align: center;
-    min-height: 500px;
 }
 .contact {
     background-color: black;
     color: white;
-    text-align: center;
-    min-height: 500px;
 }
