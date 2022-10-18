@@ -126,7 +126,7 @@ a:hover {
     color: var(--darkfont);
 }
 
-.card-elements {
+.card > * {
 
     text-align: center;
 }
