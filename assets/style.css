@@ -1,22 +1,22 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
 }
 
 body {
     position: relative;
+    margin: 60px;
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 80px;
 }
 
 h2 {
     font-size: 60px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 992px) {
     h1 {
       font-size: 50px;
     }
@@ -25,8 +25,17 @@ h2 {
     }
 }
 
+@media screen and (max-width: 768px) {
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
+
 header {
-    padding: 30px;
+    padding: 15px;
     background-color: black ;
     color: white;
     display: inline-block;
@@ -46,9 +55,25 @@ header ul {
 header ul li {
     display: inline-block;
     margin-left: 25px;
-    padding: 10px;
+    padding: 1px;
     color:white;
-    font-size: 25x;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header ul li a {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    header ul li a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header ul li a {
+        font-size: 12px;
+    }
 }
 
 p {
@@ -83,6 +108,7 @@ a:hover {
 
 h1, h2, p {
     margin: 30px;
+    vertical-align:auto;
 }
 
 .info img {
