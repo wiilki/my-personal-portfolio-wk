@@ -100,7 +100,6 @@ a:hover {
     flex-direction:column;
     overflow:hidden;
     text-align: center;
-
 }
 
 h1, h2, p {
@@ -132,4 +131,3 @@ h1, h2, p {
     background-color: black;
     color: white;
 }
-
