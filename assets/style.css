@@ -106,7 +106,7 @@ a:hover {
     color: var(--hoverfont);
 }
 
-.main {
+main {
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -136,14 +136,11 @@ h1,h2,p {
 
 #info img {
     border-radius: 20px;
-    margin: 30px;
 }
 
-#info img {
+section div {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
+    margin: auto;
     min-width: 200px;
   }
 
