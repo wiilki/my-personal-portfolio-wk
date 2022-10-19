@@ -137,6 +137,7 @@ h1,h2,p {
 section {
     position:relative;
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 section div {
