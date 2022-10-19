@@ -160,6 +160,14 @@ section div {
     border-radius: 15px;
 }
 
+#hidden {
+   display: none;
+}
+
+#hidden:hover {
+    display:contents;
+}
+
 #visible {
     position: absolute;
     top: 158px;
@@ -167,3 +175,16 @@ section div {
     width: 100%;
     left: 0%;
 }
+
+#visible:hover {
+    display: none;
+}
+
+#hidden {
+    position: absolute;
+    top: 158px;
+    margin: auto;
+    width: 100%;
+    left: 0%;
+}
+
