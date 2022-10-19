@@ -161,11 +161,11 @@ section div {
 }
 
 #hidden {
-   display: none;
+   display:none;
 }
 
-#hidden:hover {
-    display:contents;
+#visible:hover + #hidden {
+    display:block;
 }
 
 #visible {
