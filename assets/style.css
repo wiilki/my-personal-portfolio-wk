@@ -126,7 +126,9 @@ main {
     color: var(--darkfont);
 }
 
-h1,h2,p {
+h1,
+h2,
+p {
     margin: 30px;
 }
 
@@ -135,15 +137,40 @@ h1,h2,p {
 }
 
 section {
-    position:relative;
+    position: relative;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 section div {
     display: block;
     margin: auto;
     min-width: 200px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible:hover+.hidden {
+    display: contents;
+    position: relative;
+    top: 140px;
+    margin: auto;
+    width: 100%;
+    left: 0%;
+}
+
+.visible {
+    position: absolute;
+    top: 158px;
+    margin: auto;
+    width: 100%;
+    left: 0%;
+}
+
+.visible:hover {
+    display: none;
 }
 
 #portfolio {
@@ -160,32 +187,3 @@ section div {
     padding: 10px;
     border-radius: 15px;
 }
-
-#hidden {
-   display:none;
-}
-
-#visible:hover + #hidden {
-    display:block;
-}
-
-#visible {
-    position: absolute;
-    top: 158px;
-    margin: auto;
-    width: 100%;
-    left: 0%;
-}
-
-#visible:hover {
-    display: none;
-}
-
-#hidden {
-    position: absolute;
-    top: 158px;
-    margin: auto;
-    width: 100%;
-    left: 0%;
-}
-
