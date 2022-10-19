@@ -126,10 +126,6 @@ main {
     color: var(--darkfont);
 }
 
-.card > * {
-    text-align: center;
-}
-
 h1,h2,p {
     margin: 30px;
 }
@@ -138,11 +134,15 @@ h1,h2,p {
     border-radius: 20px;
 }
 
+section {
+    text-align: center;
+}
+
 section div {
     display: block;
     margin: auto;
     min-width: 200px;
-  }
+}
 
 #portfolio {
     display: flexbox;
