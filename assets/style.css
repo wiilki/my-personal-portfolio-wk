@@ -208,11 +208,16 @@ section {
 
 #portfolio>img {
     width: 20%;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
 }
 
 #portfolio img:hover {
     opacity: .5;
+}
+
+#first-project {
+    max-width: 400px;
 }
 
 #contact a {
