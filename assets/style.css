@@ -5,6 +5,7 @@
     --darkfont: black;
     --hoverfont: gainsboro;
     --linkfont: white;
+    --pagebackground: gray;
 }
 
 * {
@@ -14,6 +15,7 @@
 
 body {
     position: absolute;
+    background-color: var(--pagebackground);
 }
 
 .card h1 {
@@ -122,18 +124,22 @@ section {
     margin: 10px;
 }
 
-.card {
+.content {
     min-height: 200px;
     display: flex;
     flex-direction: column;
 }
 
-section:nth-child(even) {
+.card {
+    display: inline;
+}
+
+.content  :nth-child(even) {
     background-color: var(--darkbackground);
     color: var(--lightfont);
 }
 
-section:nth-child(odd) {
+.content  :nth-child(odd) {
     background-color: var(--lightbackground);
     color: var(--darkfont);
 }
@@ -152,6 +158,9 @@ section {
 .info-card {
     float: left;
     width: 25%;
+    z-index: 2;
+    top: 100px;
+    background-color: var(--pagebackground);
 }
 
 @media screen and (max-width: 992px) {
@@ -159,6 +168,7 @@ section {
         display: flex;
         flex-direction: column;
         width: 100%;
+        top: 0%;
     }
 }
 
