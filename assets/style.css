@@ -154,7 +154,7 @@ section {
 
 .info-card {
     float: left;
-    width: 30%;
+    width: 25%;
 }
 
 @media screen and (max-width: 992px) {
@@ -186,6 +186,12 @@ section {
     font-size: 38px;
 }
 
+@media screen and (max-width: 1300px) {
+    .info-card h2 {
+        font-size: 25px;
+    }
+}
+
 .info-card img {
     border-radius: 50px;
 }
@@ -201,13 +207,8 @@ section {
 }
 
 #portfolio>img {
-    width: 25%;
+    width: 20%;
     display: inline-block;
-}
-
-#slideshows {
-    display: flex;
-    flex-direction: row;
 }
 
 #portfolio img:hover {
