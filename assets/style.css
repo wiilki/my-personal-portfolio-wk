@@ -106,32 +106,30 @@ a:hover {
 }
 
 .info-card {
-    margin-left: 0px;
     padding: 20px;
+    clear: both;
     float: left;
-    width: 30%;
-    background-color: var(--lightbackground);
-    color: var(--darkfont);
-    text-align: center;
+    width: 20%;
+    height: 100%;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
     overflow: hidden;
 }
 
 
 .card {
     min-height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
-.card:nth-child(even) {
+section:nth-child(even) {
     background-color: var(--darkbackground);
     color: var(--lightfont);
 }
 
-.card:nth-child(odd) {
+section:nth-child(odd) {
     background-color: var(--lightbackground);
     color: var(--darkfont);
 }
@@ -150,19 +148,19 @@ section {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-section div {
-    display: block;
-    min-width: 200px;
+#portfolio > img {
+    width: 25%;
+    display: inline-block;
 }
 
-#portfolio {
-    display: flexbox;
+#slideshows {
+    display: flex;
+    flex-direction: row;
 }
 
 #portfolio img:hover {
     opacity: .5;
 }
-
 
 #contact a {
     border: solid 1px white;
