@@ -1,6 +1,6 @@
 :root {
-    --darkbackground: black;
-    --lightbackground: white;
+    --darkbackground: rgb(37, 34, 34);
+    --lightbackground: rgb(134, 124, 124);
     --lightfont: white;
     --darkfont: black;
     --hoverfont: gainsboro;
@@ -14,7 +14,6 @@
 
 body {
     position: relative;
-    margin: 60px;
 }
 
 h1 {
@@ -65,7 +64,7 @@ header ul {
 
 header ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 50px;
     padding: 1px;
     color: var(--fontcolor);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -126,9 +125,7 @@ main {
     color: var(--darkfont);
 }
 
-h1,
-h2,
-p {
+h1,h2,p {
     margin: 30px;
 }
 
@@ -144,33 +141,7 @@ section {
 
 section div {
     display: block;
-    margin: auto;
     min-width: 200px;
-}
-
-.hidden {
-    display: none;
-}
-
-.visible:hover+.hidden {
-    display: contents;
-    position: relative;
-    top: 140px;
-    margin: auto;
-    width: 100%;
-    left: 0%;
-}
-
-.visible {
-    position: absolute;
-    top: 158px;
-    margin: auto;
-    width: 100%;
-    left: 0%;
-}
-
-.visible:hover {
-    display: none;
 }
 
 #portfolio {
