@@ -16,30 +16,30 @@ body {
     position: absolute;
 }
 
-h1 {
+.card h1 {
     font-size: 70px;
 }
 
-h2 {
+.card h2 {
     font-size: 50px;
 }
 
 @media screen and (max-width: 992px) {
-    h1 {
+    .card h1 {
         font-size: 50px;
     }
 
-    h2 {
+    .card h2 {
         font-size: 30px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    h1 {
+    .card h1 {
         font-size: 40px;
     }
 
-    h2 {
+    .card h2 {
         font-size: 25px;
     }
 }
@@ -112,21 +112,8 @@ a:hover {
     }
 }
 
-.info-card {
-    float: left;
-    width: 20%;
-}
 
-@media screen and (max-width: 1300px) {
-    .info-card {
-        display: flex;
-        flex-direction: row;
-    }
-}
 
-.info-card>* {
-    padding: 40px;
-}
 
 main {
     overflow: hidden;
@@ -154,21 +141,52 @@ section:nth-child(odd) {
     color: var(--darkfont);
 }
 
-h1,
-h2,
-p {
-    margin: 30px;
+section > * {
+    margin: 20px;
 }
 
-#info img {
-    border-radius: 50px;
-}
 
 section {
     position: relative;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.info-card img {
+    border-radius: 50px;
+}
+
+.info-card {
+    float: left;
+    width: 20%;
+}
+
+@media screen and (max-width: 1300px) {
+    .info-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.info-card >  * {
+    padding: 40px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1300px) {
+    .info-card > *{
+    padding: 0px;
+    margin: 10px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .info-card img {
+      width: 50%;
+    }
+}
+
 
 #portfolio>img {
     width: 25%;
@@ -188,4 +206,8 @@ section {
     border: solid 1px white;
     padding: 10px;
     border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
