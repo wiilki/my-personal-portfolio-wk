@@ -203,6 +203,7 @@ section {
 
 .info-card img {
     border-radius: 50px;
+    width: max-content;
 }
 
 
@@ -236,4 +237,26 @@ section {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
 }
+
+#contact a {
+    border: solid 1px white;
+    padding: 10px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#contact a:visited {
+    color: black;
+}
+
