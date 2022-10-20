@@ -88,7 +88,7 @@ header ul li a {
 
 p {
     font-size: 20px;
-    padding: 10px;
+    padding: 30px;
 }
 
 a {
@@ -105,21 +105,41 @@ a:hover {
     color: var(--hoverfont);
 }
 
+@media screen and (max-width: 1300px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .info-card {
-    padding: 20px;
-    clear: both;
     float: left;
     width: 20%;
-    height: 100%;
+}
+
+@media screen and (max-width: 1300px) {
+    .info-card {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.info-card>* {
+    padding: 40px;
 }
 
 main {
     overflow: hidden;
 }
 
+section {
+    box-sizing: content-box;
+    border: 1px;
+    margin: 10px;
+}
 
 .card {
-    min-height: 500px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
 }
@@ -134,12 +154,14 @@ section:nth-child(odd) {
     color: var(--darkfont);
 }
 
-h1,h2,p {
+h1,
+h2,
+p {
     margin: 30px;
 }
 
 #info img {
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 section {
@@ -148,7 +170,7 @@ section {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#portfolio > img {
+#portfolio>img {
     width: 25%;
     display: inline-block;
 }
