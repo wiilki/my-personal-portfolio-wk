@@ -74,6 +74,17 @@ header ul li {
 
 header ul li a {
     font-size: 20px;
+    color: var(--lightfont);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+header ul li a:visited {
+    color: var(--lightfont);
+}
+
+header ul li a:hover {
+    color: var(--hoverfont);
 }
 
 @media screen and (max-width: 992px) {
@@ -93,19 +104,6 @@ p {
     padding: 30px;
 }
 
-a {
-    color: var(--lightfont);
-    text-decoration: none;
-    font-size: 30px;
-}
-
-a:visited {
-    color: var(--lightfont);
-}
-
-a:hover {
-    color: var(--hoverfont);
-}
 
 @media screen and (max-width: 992px) {
     main {
@@ -134,12 +132,16 @@ section {
     display: inline;
 }
 
-.content  :nth-child(even) {
+.card {
+    border: solid white 1px;
+}
+
+.card:nth-child(even) {
     background-color: var(--darkbackground);
     color: var(--lightfont);
 }
 
-.content  :nth-child(odd) {
+.card:nth-child(odd) {
     background-color: var(--lightbackground);
     color: var(--darkfont);
 }
