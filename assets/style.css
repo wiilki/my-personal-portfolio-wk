@@ -16,6 +16,7 @@
 body {
     position: absolute;
     background-color: var(--pagebackground);
+    font-weight: bold;
 }
 
 .card h1 {
@@ -75,7 +76,6 @@ header ul li a {
     color: var(--lightfont);
     text-decoration: none;
     font-size: 30px;
-    font-weight:bold;
 }
 
 header ul li a:visited {
@@ -94,7 +94,6 @@ header ul li a:hover {
 
 p {
     font-size: 25px;
-    font-weight:bold;
     padding: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -289,7 +288,6 @@ section {
     color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
-    font-weight: bolder;
 }
 
 #contact a:visited {
