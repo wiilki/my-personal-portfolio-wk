@@ -2,7 +2,7 @@
 
 ## Description
 
-I created this project to display my portfolio in my own unique way. I wanted to use my knowledge of flexbox, media queries and various other CSS variables to showcase my previous projects. I'd like to keep updating this page as I progress through bootcamp.
+I created this project to display my portfolio in my own unique way. I wanted to use my knowledge of flexbox, media queries and various other CSS variables to showcase my previous projects. I will keep updating this page as I progress through bootcamp.
 
 ## Installation
 
