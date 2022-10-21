@@ -1,11 +1,11 @@
 :root {
-    --darkbackground: rgb(102, 95, 95);
+    --darkbackground: rgb(61, 60, 60);
     --lightbackground: rgb(187, 180, 180);
-    --lightfont: rgb(255, 255, 255);
+    --lightfont: rgb(185, 174, 174);
     --darkfont: black;
     --hoverfont: gainsboro;
-    --linkfont: white;
-    --pagebackground: gray;
+    --linkfont: rgb(56, 56, 56);
+    --pagebackground: rgb(133, 133, 133);
 }
 
 * {
