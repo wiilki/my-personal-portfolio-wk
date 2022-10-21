@@ -48,13 +48,12 @@ body {
 
 header {
     position: relative;
-    padding: 15px;
     background-color: var(--darkbackground);
     color: var(--lightfont);
     display: inline-block;
     width: 100%;
     border-radius: 30px;
-    padding: 20px;
+    padding: 15px;
 }
 
 header ul {
