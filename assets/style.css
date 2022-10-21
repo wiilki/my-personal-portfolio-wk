@@ -130,10 +130,8 @@ section h1 {
     position: relative;
     display: flex;
     flex-direction: column;
-}
-
-.card {
     border: solid white 1px;
+    padding: 20px;
 }
 
 .card:nth-child(even) {
