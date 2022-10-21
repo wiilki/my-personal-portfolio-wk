@@ -123,6 +123,10 @@ section {
     margin: 10px;
 }
 
+section h1 {
+    text-shadow: 5px 5px #946b6b;
+}
+
 .content {
     min-height: 200px;
     display: flex;
@@ -292,23 +296,9 @@ section {
     color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
-}
-
-#contact a {
-    border: solid 1px white;
-    padding: 10px;
-    border-radius: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
     font-weight: bolder;
 }
 
 #contact a:visited {
     color: black;
 }
-
