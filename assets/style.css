@@ -26,7 +26,7 @@ body {
     font-size: 50px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1100px) {
     .card h1 {
         font-size: 50px;
     }
@@ -47,6 +47,7 @@ body {
 }
 
 header {
+    position: relative;
     padding: 15px;
     background-color: var(--darkbackground);
     color: var(--lightfont);
@@ -87,7 +88,7 @@ header ul li a:hover {
     color: var(--hoverfont);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1100px) {
     header ul li a {
         font-size: 15px;
     }
@@ -105,7 +106,7 @@ p {
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1100px) {
     main {
         display: flex;
         flex-direction: column;
@@ -167,7 +168,7 @@ section {
     background-color: var(--pagebackground);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1100px) {
     .info-card {
         display: flex;
         flex-direction: column;
@@ -182,7 +183,7 @@ section {
     margin-top: 100px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1100px) {
     .info-card>* {
         padding: 0px;
         margin: 10px;
@@ -209,7 +210,7 @@ section {
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1100px) {
     .info-card img {
         display: block;
         margin-left: auto;
@@ -218,22 +219,41 @@ section {
     }
 }
 
+#portfolio {
+    position: relative;
+}
+
 #portfolio img:hover {
     opacity: .5;
+}
+
+@media screen and (max-width: 1100px) {
+    .slideshow {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
 }
 
 .slideshow {
     position: relative;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
 }
 
 
 .container {
     position: relative;
-    width: 50%;
-    max-width: 400px;
+    min-width: 400px;
+    max-width: 500px;
+}
+
+.other-projects {
+    position: relative;
+    display: inline-block;
+    border: 10px;
 }
 
 .first-project {
