@@ -216,9 +216,15 @@ section {
     }
 }
 
+div.slideshow {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
 #portfolio>img {
     width: 20%;
-
 }
 
 #portfolio img:hover {
@@ -226,7 +232,7 @@ section {
 }
 
 #first-project {
-    max-width: 400px;
+    min-width: 200px;
 }
 
 #contact a {
@@ -260,3 +266,32 @@ section {
     color: black;
 }
 
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  .first-project {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
