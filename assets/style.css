@@ -129,7 +129,9 @@ section {
 }
 
 .card {
-    display: inline;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .card {
@@ -216,24 +218,48 @@ section {
     }
 }
 
-div.slideshow {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-}
-
-#portfolio>img {
-    width: 20%;
-}
-
 #portfolio img:hover {
     opacity: .5;
 }
 
-#first-project {
-    min-width: 200px;
+.slideshow {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
+
+
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 400px;
+}
+
+.first-project {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
 
 #contact a {
     border: solid 1px white;
@@ -266,32 +292,3 @@ div.slideshow {
     color: black;
 }
 
-.container {
-    position: relative;
-    width: 50%;
-    max-width: 300px;
-  }
-  
-  .first-project {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute; 
-    bottom: 0; 
-    background: rgb(0, 0, 0);
-    color: #f1f1f1; 
-    width: 100%;
-    transition: .5s;
-    opacity:0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
