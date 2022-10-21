@@ -93,6 +93,7 @@ header ul li a:hover {
 
 p {
     font-size: 25px;
+    font-weight:bold;
     padding: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
