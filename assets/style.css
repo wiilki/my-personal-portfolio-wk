@@ -239,6 +239,10 @@ section {
     align-items: center;
 }
 
+.slideshow div {
+    margin: 3px;
+}
+
 
 .container {
     position: relative;
